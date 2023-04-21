@@ -11,11 +11,6 @@ from sqlalchemy.ext.declarative import declarative_base
 
 metadata = MetaData()
 
-hostname = "10.88.50.152"
-database_name = "customers"
-user = "pgadmin"
-password = "postgres"
-
 Base = declarative_base(metadata=metadata)
 
 
